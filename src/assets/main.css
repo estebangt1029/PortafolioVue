@@ -1,0 +1,12 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+:root {
+  --oscuro: #000000;
+  --medio-oscuro: #52057B;
+  --medio-claro: #892CDC;
+  --claro: #BC6FF1;
+}
+
