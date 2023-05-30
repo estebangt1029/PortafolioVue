@@ -17,7 +17,7 @@
           <ul>
             <li>Esteban</li>
             <li>18 Years</li>
-            <li>Full Stack Developer</li>
+            <li>Full Stack</li>
           </ul>  
         </div>
       </div>
@@ -64,6 +64,9 @@
 .container1{
   min-height: 100vh;
   max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Creepster', cursive;
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 41%, rgba(231,76,60,1) 100%, rgba(231,76,60,1) 100%);
@@ -82,7 +85,7 @@
     
   }
   .foto{
-    width: 300px;
+    width: 250px;
     border-radius: 50%;
     display: flex;
   }
@@ -104,7 +107,7 @@
   }
 
   .certificados{
-    max-width: 100vw;
+    max-width: 90vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -116,7 +119,7 @@
   }
 
   .projects{
-    max-width: 100vw;
+    max-width: 90vw;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -198,28 +201,13 @@ ul li {
   margin:0;
 }
 
-@-webkit-keyframes opacity {
-  0%   {opacity:0;}
-  50%  {opacity:1;}
-  100% {opacity:0;}
-}
+
 @keyframes opacity {
   0%   {opacity:0;}
   50%  {opacity:1;}
   100% {opacity:0;}
 }
 
-@-webkit-keyframes change {
-  0%   {margin-top:0;}
-  15%  {margin-top:0;}
-  25%  {margin-top:-40px;}
-  40%  {margin-top:-40px;}
-  50%  {margin-top:-80px;}
-  65%  {margin-top:-80px;}
-  75%  {margin-top:-40px;}
-  85%  {margin-top:-40px;}
-  100% {margin-top:0;}
-}
 @keyframes change {
   0%   {margin-top:0;}
   15%  {margin-top:0;}
@@ -240,8 +228,8 @@ ul li {
   /* animacion de tecnologias rotando*/
   .skils{
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     animation-name: rotar;
     animation-duration: 25s;
     animation-timing-function: linear;
@@ -253,27 +241,27 @@ ul li {
   .img1{
     rotate: -45deg;
     position: absolute;
-    left: 5px;
-    top: 5px;
+    left: 0px;
+    top: 0px;
 
   }
   .img2{
     position: absolute;
     right: 0;
     rotate: 45deg;
-    right: 5px;
-    top: 5px;
+    right: 0px;
+    top: 0px;
   }
   .img3{
     position: absolute;
-    bottom: 5px;
-    left: 5px;
+    bottom: 0px;
+    left: 0px;
     rotate: -135deg;
   }
   .img4{
     position: absolute;
-    bottom: 5px;
-    right: 5px;
+    bottom: 0px;
+    right: 0px;
     rotate: 135deg;
   }
   .img5{
@@ -299,7 +287,7 @@ ul li {
     top: -45px;
     left: 40%;
   }
-
+/* 
   @keyframes rotar {
     0% {
       transform: rotate(0deg);
@@ -307,7 +295,7 @@ ul li {
     100% {
       transform: rotate(360deg);
     }
-  }
+  } */
 
 
 
@@ -321,7 +309,7 @@ ul li {
     padding-top: 40px;
   }
   .info{
-    width: 100%;
+    width: 95%;
   }
   .content2 {
   font-size:36px;

@@ -38,6 +38,7 @@ main{
     background-color: black;
   
 }
+
 .p{
     color: red;
 }
@@ -70,7 +71,7 @@ main{
 }
 
 .section-subtitle {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
